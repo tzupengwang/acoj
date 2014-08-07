@@ -1,0 +1,14 @@
+installation.txt
+
+
+ubuntu
+
+sudo apt-get install libmysqlclient-dev
+
+php_value upload_max_filesize 128M
+vim /etc/mysql/my.cnf{
+	/*
+	   set max_allowed_packet=128M
+	   set bind-address
+	 */
+}
